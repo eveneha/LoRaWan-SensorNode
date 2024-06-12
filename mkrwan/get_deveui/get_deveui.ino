@@ -15,7 +15,7 @@ void blinkErr() {
 }
 
 void setup() {
-
+  
   // serial configuration
   Serial.begin(115200);
   while (!Serial);

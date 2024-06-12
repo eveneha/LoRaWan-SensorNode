@@ -38,7 +38,7 @@ void loop() {
   if (!modem) {
     Serial.print("No connection ...");
     
-    if (!modem.joinOTAA(APPEUI, APPKEY)) {
+    if (!modem.joinOTAA(APPEUI, APPKEY)) {  
       Serial.println(" OTAA failed");
       delay(CONN_MS);
     } 
